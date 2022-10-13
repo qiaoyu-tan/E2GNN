@@ -1,0 +1,50 @@
+Cora:
+  lr: 0.01
+  dropout: 0.0
+  weight_decay: 0.0005
+
+CiteSeer:
+  lr: 0.01
+  dropout: 0.0
+  weight_decay: 0.0005
+
+PubMed:
+  lr: 0.01
+  dropout: 0.5
+  weight_decay: 0.001
+
+amazon_electronics_computers:
+  lr: 0.01
+  dropout: 0.5
+  weight_decay: 0.005
+
+amazon_electronics_photo:
+  lr: 0.01
+  dropout: 0.5
+  weight_decay: 0.005
+
+WikiCS:
+  lr: 0.01
+  dropout: 0.0
+  weight_decay: 0.0005
+
+Coauthor-CS:
+  lr: 0.01
+  dropout: 0.0
+  weight_decay: 0.0005
+
+Coauthor-Phy:
+  lr: 0.01
+  dropout: 0.0
+  weight_decay: 0.0005
+  hidden: 64
+
+ogbn-arxiv:
+  lr: 0.01
+  dropout: 0.5
+  weight_decay: 0.0
+  hidden: 256
+  num_layer: 3
+  use_norm: 1
+
+
